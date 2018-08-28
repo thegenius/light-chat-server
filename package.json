@@ -1,0 +1,22 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.9.2",
+    "ts-loader": "^4.5.0",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "@types/socket.io": "^1.4.38",
+    "socket.io": "^2.1.1"
+  }
+}
